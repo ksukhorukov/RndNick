@@ -14,11 +14,11 @@ class RndNick
   end 
 
   def display_nick 
-    puts "nick: #{@nick}"
+    puts "\nlogin: #{@nick}"
   end 
 
   def display_password  
-    puts "password: #{@password}"
+    puts "password: #{@password}\n\n"
   end 
 
   def perform 
