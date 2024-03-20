@@ -2,6 +2,17 @@
 
 Generates random nickname and password pair
 
+## Requirements
+
+- Ruby 3.* 
+- *nix or BSD
+
+## Install
+
+```
+./installer.sh
+```
+
 ## Usage
 
 ```
