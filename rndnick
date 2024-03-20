@@ -1,42 +1,20 @@
 #!/usr/bin/env ruby
 
-class RndNick
-  attr_reader :nick_alphabet, :password_alhpabet, :nick, :password
-  
-  NICK_ALPHABET_SIZE = 7
-  PASSWORD_SIZE = 15
+# Copyright 2024 KIRILL SUKHORUKOV
 
-  def initialize
-    @nick_alphabet = ('a'..'z').to_a
-    @password_alhpabet = ('a'..'z').to_a + ('A'..'Z').to_a + (0..9).to_a + ('!'..'?').to_a
-    @nick = ''
-    @password = ''
-  end 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
 
-  def display_nick 
-    puts "\nlogin: #{@nick}"
-  end 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 
-  def display_password  
-    puts "password: #{@password}\n\n"
-  end 
+# You should have received a copy of the GNU General Public License V.3
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-  def perform 
-    generate_rnd_nick
-    generate_rnd_passwd
-    display_nick
-    display_password
-  end
-
-  private 
-
-  def generate_rnd_nick
-    NICK_ALPHABET_SIZE.times { |i| @nick << nick_alphabet.sample } 
-  end
-
-  def generate_rnd_passwd
-    PASSWORD_SIZE.times { |i| @password << password_alhpabet.sample } 
-  end
-end
+require_relative './lib/rnd_nick'
 
 RndNick.new.perform

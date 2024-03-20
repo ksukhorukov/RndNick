@@ -1,4 +1,4 @@
-# Random Nick
+# Random Nick Generator
 
 Generates random nickname and password pair
 
