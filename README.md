@@ -22,4 +22,8 @@ nick: hzffmch
 password: N 442:=ELu  o63b
 ```
 
+## Look
+
+![random nick generator](http://url/to/img.png)
+
 ## [EOF]
