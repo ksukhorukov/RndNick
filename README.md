@@ -1,6 +1,6 @@
 # Random Nick Generator
 
-Generates random nickname and password pair
+Generates random nickname and a password pair
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Generates random nickname and password pair
 ## Usage
 
 ```
-./app
+./rndnick
 
 nick: hzffmch
 password: N 442:=ELu  o63b
