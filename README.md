@@ -1,6 +1,6 @@
 # Random Nick Generator
 
-Generates random nickname and a password pair
+Generates a nickname and a password pair
 
 ## Requirements
 
@@ -23,9 +23,6 @@ password: N 442:=ELu  o63b
 ```
 
 ## Look
-
-
-
 
 ![random nick generator](https://github.com/ksukhorukov/RndNick/blob/master/images/screen.png)
 
